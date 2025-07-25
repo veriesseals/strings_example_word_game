@@ -35,15 +35,11 @@ public class StoryGame {
             wordTimePeriod = scnr.next();
 
             // Print statements to tell the story
-
             System.out.println("");
             System.out.print("My " + wordRelative);
             System.out.println(" says eating " + wordFood);
             System.out.println("will make me more " + wordAdjective);
             System.out.println("so now I eat it every " + wordTimePeriod);
-
-
         }
     }
-    
 }
